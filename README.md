@@ -6,8 +6,7 @@
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
 
 ## Descrição do Projeto
-Este projeto é uma API REST desenvolvida em Java com Spring Boot para o cadastro de clientes. A aplicação consome a API pública do [ViaCep](https://viacep.com.br) para preencher automaticamente os dados de endereço dos clientes com base no CEP informado garantindo sua persistência. A API oferece endpoints para criar, atualizar, buscar e remover clientes, garantindo que as informações de endereço sejam consistentes e completas. Extra: simulação de trabalho coletivo usando comandos git ao executar criação, uso e merge de branches, com lançamentos e aprovação de PRs.
-
+A partir de um UX do figma para um aplicativo de um banco, sabemos que sua materialização em aplicativos apresentam essas informações que, por sua vez, vão precisar consumir esses dados de algum lugar. Assim, mapeei os dados da interface de usuário para uma API REST desenvilvida cem Java com Spring Boot. A aplicação tem dois perfis: um para desenvolvimento e outro para produção, com variáveis de ambiente configuradas. Ela também está configurada para rodar em um ambiente de produção na nuvem (Railway).
 ## Funcionalidades
 - Cadastro de usuários (clientes do banco)
 - Busca de usuarios pelo número do id
